@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <style>
+            .heading{
+                font-size: 80px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .lucky1, .lucky{
+                display: inline-block;
+                background-color: #4285f4;
+                color: #fff;
+                padding: 5px 10px;
+                text-decoration: none;
+                border-radius: 7px;
+                cursor: pointer;
+                border: solid black;
+            }
+            div{
+                text-align: right;
+            }
+            .google{
+                text-align: center;
+                color: red;
+                padding-top: 10px;
+                align-items: center;
+                border-radius: 5px;
+            }
+            .bar{
+                border-radius: 7px;
+                font-size: xx-large;
+                border: solid;
+            }
+            .se1{
+                border-radius: 7px;
+                padding: 5px 10px;
+                background-color: #4285f4;
+                color: #fff;
+                cursor: pointer;
+                border: solid black;
+                text-decoration: none;
+            }
+            .blue-text{
+                color: rgba(19, 42, 250, 0.89);
+            }
+            .red-text{
+                color: rgb(219, 68, 55);
+            }
+            .yellow-text{
+                color: rgba(244, 180, 0);
+            }
+            .green-text{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div >
+            <a class="lucky1" href="file:///C:/Users/hp/Documents/Project%200(edx)/advanced.html" type="submit">Advanced</a>
+            <a class="lucky1" href="file:///C:/Users/hp/Documents/Project%200(edx)/image.html" type="submit">Images</a>
+            <a class="lucky1" href="https://mail.google.com/mail" type="submit">Gmail</a>
+        </div>
+        <form class="google" action="https://www.google.com/search">
+            <h1 class="heading"><span class="blue-text">G</span><span class="red-text">o</span><span class="yellow-text">o</span><span class="blue-text">g</span><span class="green-text">l</span><span class="red-text">e</span></h1>
+            <input class="bar" type="text" name="q">
+            <div class="google">
+                <input class="se1" type="submit" value="Search">
+                <input type="submit" name="btnI" value="I'm feeling lucky" class="lucky">
+            </div>
+        </form>
+    </body>
+</html>
